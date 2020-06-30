@@ -5,6 +5,7 @@
 This is a short story about a girl named Karen and her friend. Run `index.html` to view the story. You will see that the story is incomplete. On finishing each _Trial_, a part of the story will be unlocked. Go to the `src/app.js` file and complete all the unfinished code to find out how this story ends.
 
 ## What should you do
+
 ```
 Fork this repo
 Clone this repo
@@ -12,6 +13,7 @@ Practice JavaScript Basics - Datatypes, Operators, Conditions
 ```
 
 ## How To Submit
+
 ```
 Upon completion, run the following commands:
 
@@ -59,7 +61,7 @@ Lily starts panicking once she reaches. She feels there's something wrong with h
 
 ### Progression 7: Console Karen
 
-Lily's actions had a negative effect on Karen and now she's drifted further away. Lily realizes that she must do something immediately to console her daughter. She thinks of a couple of strategies that might help. Create a function `consoleKaren()` which takes an argument `strategies`. Concatenate these strategies and _returns the string length_.
+Lily's actions had a negative effect on Karen and now she's drifted further away. Lily realizes that she must do something immediately to console her daughter. She thinks of a couple of strategies that might help. Create a function `consoleKaren()` which takes an argument ``. Concatenate these strategies and _returns the string length_.
 
 _This lab is inspired by [Mysterious Friend](https://yourstoryclub.com/short-stories-unusual-experience/thriller-short-story-mysterious-friend/) - yourstoryclub.com_
 
