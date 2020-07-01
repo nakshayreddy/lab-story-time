@@ -30,14 +30,15 @@ moreAboutKaren("akash", 4, true);
 //Karen tells her friend's age and even writes it down
 //Check which one those is not a number (NaN) and return that value
 function doesFriendExist(ageInText, ageInNumber) {
-  if (ageInText !== NaN) {
-    return ageInText;
-  } else if (ageInNumber !== NaN) {
-    return ageInNumber;
-  } else if (ageInText === NaN) {
+  if (
+    (isNaN(ageInText) === true || isNaN(ageInNumber) === true) &&
+    typeof ageInText !== "string"
+  ) {
     return NaN;
-  } else if (ageInText === " ") {
+  } else if (typeof ageInText === "string" && ageInText.length === 0) {
     return NaN;
+  } else if (typeof ageInText === "string" && ageInText.length > 1) {
+    return "NaN";
   }
 }
 
